@@ -1,16 +1,14 @@
 'use client';
 
 import React from 'react';
+import App from './weatherapp/page'
 
-import Hero from '../components/Hero';
-import Content from '../components/Content';
+
 
 export default function Index() {
   return (
     <>
-      <Hero />
-      <hr />
-      <Content />
+      <App></App>
     </>
   );
 }
